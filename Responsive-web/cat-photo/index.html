@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-    </head>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
 <body>
     <main>
         <h1>CatPhotoApp</h1>
@@ -23,9 +25,11 @@
                 <li>laser pointers</li>
                 <li>lasagna</li>
             </ul>
-            <figure><!-- Do you recall why you should use figure element? -->
-            <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasgna on a plate.">
-            <figcaption>Cats <em>love</em> lasagna.</figcaption>
+            <figure>
+                <!-- Do you recall why you should use figure element? -->
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
+                    alt="A slice of lasgna on a plate.">
+                <figcaption>Cats <em>love</em> lasagna.</figcaption>
             </figure>
             <h3>Top 3 things cats hate:</h3>
             <ol>
@@ -34,20 +38,24 @@
                 <li>other cats</li>
             </ol>
             <figure>
-                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+                    alt="Five cats looking around a field.">
                 <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
             </figure>
         </section>
         <section>
             <h2>Cat Form</h2>
             <form action="https://freecatphotoapp.com/submit-cat-photo">
-                <label><!-- To help associate the text for an input element. Also makes it so clicking the word 'cat' also selects the corresponding radio button.-->
-                    <input type="radio"> Indoor
-                </label>
+                <fieldset>
+                    <legend>Is your cat an indoor or outdoor cat?</legend>
+                    <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+                    <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+                </fieldset>
                 <input type="text" name="catphotourl" placeholder="cat photo URL" required>
                 <button type="submit">Submit</button>
             </form>
         </section>
     </main>
 </body>
+
 </html>

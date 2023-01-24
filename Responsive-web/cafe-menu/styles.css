@@ -12,6 +12,10 @@ body {
     padding: 20px;
 }
 
+h1, h2 {
+    font-family: Impact, serif;/* Easier to view headings also a fallback font 'serif'.*/
+}
+
 h1, h2, p {
     text-align: center;
 }

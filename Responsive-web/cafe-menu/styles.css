@@ -3,14 +3,9 @@ body {
     font-family: sans-serif;
 }
 
-.menu {
-    max-width: 500px;
-    width: 80%;/*This makes the width 80% of its parent element (body).*/
-    background-color: burlywood;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-}
+h1 {font-size: 40px}
+
+h2 {font-size: 30px}
 
 h1, h2 {
     font-family: Impact, serif;/* Easier to view headings also a fallback font 'serif'.*/
@@ -18,6 +13,15 @@ h1, h2 {
 
 h1, h2, p {
     text-align: center;
+}
+
+.menu {
+    max-width: 500px;
+    width: 80%;/*This makes the width 80% of its parent element (body).*/
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
 }
 
 .flavor, .dessert {

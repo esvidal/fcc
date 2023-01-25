@@ -1,9 +1,15 @@
 h1 {text-align: center}
 
 .marker {
-    background-color: red;
     width: 200px;
     height: 25px;
     margin: 10px auto;
 }
+
+.one {background-color: red}
+
+.two {background-color: green}
+
+.three {background-color: blue}
+
 

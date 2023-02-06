@@ -1,0 +1,28 @@
+<!DOCYTPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 id="title">TheGolfBeaverCompany Survey Form</h1>
+        <p id="description">Thank you for taking the time to fill out our survey form. It's like a test, but with no grades, only good vibes and cake (not guaranteed).</p>
+        <form id="survey-form" action="">
+            <fieldset><!--Link input & label elements with 'for' attribute.--><!---->
+                <label for="name-label">Name <input id="name-label" name="name" type="text" placeholder="Enter your name"></label>
+                <label for="email-label">Email <input id="email" name="email" type="email" placeholder="Enter your email"></label>
+                <label for="age">Age (optional) <input id="age" type="number" name="age" min="13" max="100" placeholder="Age"></label>
+                <label for="dropdown">Which option best describes your current level in golf?
+                    <select id="dropdown" name="dropdown">
+                        <option value="Select current level">Select current level</option>
+                        <option value="amatuer">Amatuer</option>
+                        <option value="professional">Professional</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset></fieldset>
+            <fieldset></fieldset>
+        </form>
+    </body>
+</html>

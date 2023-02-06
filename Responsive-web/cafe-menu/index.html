@@ -27,7 +27,7 @@
                     </article>
                     <article class="item">
                         <p class="flavor">Hazelnut</p><p class="price">4.00</p>
-                    </article>
+                    </article>          
                     <article class="item">
                         <p class="flavor">Mocha</p><p class="price">4.50</p>
                     </article>
@@ -56,5 +56,22 @@
                 <p> 123 Free Code Camp Drive</p>
             </footer>
         </div>
+        <script>
+            // Using the XMLHttpRequest (XHR) object:
+            let xhr = new XMLTttpRequest();
+            xhr.open("GET", "https://www.example.com", true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === XMLHttpRequest.DONE && xhr.state === 200)
+                    console.log(xhr.responseText);
+                }
+            };
+            xhr.send();
+
+            // Using the fetch API:
+            fetch("https://www.example.com")
+                .then(response => response.text())
+                .then(data => console.log(data))
+                .catch(error => console.error(error));
+        </script>
     </body>
 </html>

@@ -11,19 +11,26 @@
     It's like a test, but with no grades, only good vibes and cake (not guaranteed).</p>
     <form id="survey-form" action="">
       <fieldset><!--Link input & label elements with 'for' attribute.--><!---->
-        <label for="name-label">Name <input id="name-label" name="name" type="text" placeholder="Enter your name"></label>
-        <label for="email-label">Email <input id="email" name="email" type="email" placeholder="Enter your email"></label>
-        <label for="age">Age (optional) <input id="age" type="number" name="age" min="13" max="100" placeholder="Age"></label>
+        <label for="name-label">Name <input id="name-label" name="name" type="text" placeholder="Enter your name" required/></label>
+        <label for="email-label">Email <input id="email" name="email" type="email" placeholder="Enter your email" required/></label>
+        <label for="age">Age (optional) <input id="age" type="number" name="age" min="13" max="100" placeholder="Age" required/></label>
         <label for="dropdown">Which option best describes your current level in golf?
           <select id="dropdown" name="dropdown">
             <option value="Select current level">Select current level</option>
-            <option value="amatuer">Amatuer</option>
+            <option value="amateur">Amateur</option>
             <option value="professional">Professional</option>
           </select>
         </label>
       </fieldset>
-      <fieldset></fieldset>
-      <fieldset></fieldset>
-    </form>
+      <fieldset>
+          <label for="amateur-status"><input type="radio" name="player-status" id="amateur-status"> Amateur</label>
+          <label for="professional-status"><input type="radio" name="player-status" id="professional-status"> Professional</label>
+          <label for="accept-tips"><input type="checkbox" id="accept-tips"/> I would like to recieve email tips on how to lower my scores</label>
+      </fieldset>
+      <fieldset>
+          <label>Upload a picture of your bag: <input type="file" /></label>
+      </fieldset>
+      <input type="submit" value="Submit"/>
+    </form
   </body>
 </html>

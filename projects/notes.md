@@ -8,7 +8,14 @@ The universal selector * is often used to apply a style to all elements on the p
      padding: 0;
    }`    
 
-This can help to remove default settings from browsers.
+This can help to remove default settings from browsers.  
+
+**Type selectors** specificity value is `(0, 0, 0, 1)`. 
+
+The `!important` keyword in CSS is used to give a style rule the highest priority, allowing it to override
+any other declarations for a property.
+
+
 
  
 

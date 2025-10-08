@@ -36,7 +36,3 @@ Then it evaluates the importance of each rule, giving priority to rules marked w
 4. order of appearance
 
 
-
-
- 
-

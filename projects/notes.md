@@ -35,4 +35,16 @@ Then it evaluates the importance of each rule, giving priority to rules marked w
 3. specificity
 4. order of appearance
 
+## 2025-10-11
+### CSS Specificity (Continued)
+
+`<div style="color:blue;">This is the parent element.<p>This is the child element inheriting the color.</p></div>`  
+
+#### Different Types of CSS Combinators
+- Descendant Combinator `ul li {background-color: yellow;}`
+    - This example will target all `li` items inside `ul` elements.
+- Child Combinator (`>`): is used to select elements that are direct children of a specified parent element.
+    - This example will target all `p` elements that are direct children of the `container` class.
+    - `.container > p {background-color: black;color:white;}` 
+
 

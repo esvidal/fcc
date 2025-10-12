@@ -47,4 +47,11 @@ Then it evaluates the importance of each rule, giving priority to rules marked w
     - This example will target all `p` elements that are direct children of the `container` class.
     - `.container > p {background-color: black;color:white;}` 
 
+- Next-sibling Combinator (`+`): selects an element that immediately follows a specified sibling element.
+    - `h2 + p {background-color: red;}`
+- Subsequent-sibling Combinator (`~`): selects all siblings of a specified element that come after it.
+    - `ul ~ p {background-color: green;}`    
+
+## 2025-10-12
+### Styling Lists and Links
 

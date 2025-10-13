@@ -54,4 +54,13 @@ Then it evaluates the importance of each rule, giving priority to rules marked w
 
 ## 2025-10-12
 ### Styling Lists and Links
+Instead of using `line-height` to create space between `li`, you can use `margin-bottom`.
+### List-Style Properties
+`list-style` property is actually a shorthand for three other properties:
+- `list-style-type`
+- `list-style-position`
+- `list-style-image`  
+The `list-style-type` property allows you to define the type of bullet point or number used in a list.  
+The `list-stlye-position` property controls the position of the bullet or number in relation to the list item's content.
+There are two values you can use: `inside` and `outside`.
 

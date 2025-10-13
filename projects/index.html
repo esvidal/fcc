@@ -3,27 +3,30 @@
     <head>
         <meta charset="utf-8">
         <title>Playground</title>
-        <link rel="stylesheet" href="styles.css">
+<style>
+ul {
+    list-style-image: square inside url('https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg');
+    list-style-position: inside;
+} 
+</style><!-- End of style -->
     </head>
     <body>
         <h1>Playground</h1>
         <p>
-        The purpose of this document is do just practice on my own.
+        The purpose of this document is test any new code I learn along the way.
         </p>
         <hr>
         <h2>Space List Items Using margin or line-height</h2>
-        <ul>
+        <ul style="list-style-type: square;list-style-position: inside">
             <li>Item 1</li>
             <li>Item 2</li>
             <li>Item 3</li>
         </ul>
-        <p>
-        By default, HTML will not apply that much spacing between the list items.
-        To apply some spacing to the bottom of each list item, you can use the `margin-bottom`.
-        li {margin-bottom: 40px;}
-        </p>
-        <p>
-        This is just an example.
-        </p>
+        <ul style="list-style-position: outside;"><!-- Can't really tell the difference one looks indented -->
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+       </p>
     </body>
 </html>
